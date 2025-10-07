@@ -30,7 +30,6 @@ FROM university_rankings
 GROUP BY country
 ORDER BY AVG(score) DESC
 LIMIT 10;
-
 -- Output of query 3:
 -- Israel|52.65
 -- USA|51.85
@@ -71,7 +70,6 @@ FROM yearly_avg y
 JOIN max_avg m
   ON y.year = m.year AND y.avg_score = m.max_score
 ORDER BY y.year;
-
 -- Output of query 5:
 -- 2012|United Kingdom|57.95
 -- 2013|United Kingdom|62.84
