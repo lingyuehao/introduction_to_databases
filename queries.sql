@@ -92,7 +92,7 @@ WHERE country = 'Japan'
   AND world_rank <= 200;
 -- Output: 6
 
--- UPdate
+-- Update
 UPDATE university_rankings
 SET score = score + 1.2
 WHERE institution = 'University of Oxford'
